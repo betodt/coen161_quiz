@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='styles.css' />
+    <script type='text/javascript' src='global.js'></script>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script type='text/javascript' src='event.handler.js'></script>
+  </head>
+<body>
+	<form method="post" action="donate.php">
+		<h1>Thank you for supporting the Frugal Innovation Lab!</h1>
+		<hr />
+	      <h4> Let us know who you are andd select your donation amount below! </h4>
+		  <p>
+			<label> <input type = "Text"  name = "sponsor"  
+						   placeholder="Enter Your Name" /> 
+			</label>
+			<br />
+			<label> <input type = "radio"  name = "donation"  
+						   value = "1"  checked = "checked" /> 
+						   <strong>$13.30 (Level 1):</strong> Supports the wages and benefits of an undergraduate student to work for one hour on a FIL project!
+			</label> 
+			<br />
+			<label> <input type = "radio"  name = "donation"  
+						   value = "2" />
+							<strong>$17.65 (Level 2):</strong> Supports the wages and benefits of a graduate student to work for one hour on a FIL project!
+			</label> 
+			<br />
+			<label> <input type = "radio"  name = "donation"  
+						   value = "3" />
+							<strong>$39.95 (Level 3):</strong> Purchases one Raspberry Pi (or similar products) for the development of mobile applications, smart sensors, or other solutions for our field-based social enterprises.
+			</label> 
+			<br />
+			<label> <input type = "radio"  name = "donation"  
+						   value = "4" />
+							<strong>$78.60 (Level 4):</strong> Covers the average cost of admittance to a FIL related conference for a faculty/staff member.
+			</label> 
+			<br />
+			<label> <input type = "radio"  name = "donation"  
+						   value = "5" />
+							<strong>$500 (Level 5):</strong> Provides a Senior Design team with enough money to buy materials for their prototype.
+			</label> 
+			<br />
+			<label> <input type = "radio"  name = "donation"  
+						   value = "6" />
+							<strong>$898 (Level 6):</strong> Accommodates one student's air fare to South America to field test their prototypes with FIL university and enterprise partners.
+			</label> 
+			<br />
+			<label> <input type = "radio"  name = "donation"  
+						   value = "7" />
+							<strong>$1,500 (Level 7):</strong> Makes you exceptionally awesome.
+			</label> 
+			<br />
+			<label> <input type = "radio"  name = "donation"  
+						   value = "8" />
+							<input type="text" name="other" size="10" placeholder="other"/>
+			</label> 
+			<br />
+		  </p>
+		  <p>
+			<input type="submit" value="submit"/>
+		  </p>
+	</form>
+	<footer>
+		<address>Created in between 2014-10-13 and 2014-10-31. <br />Written by <a href='mailto:tchen@scu.edu'>Travis Chen</a> and <a href='mailto:adiaztostado@scu.edu'>Alberto Diaz</a>.</address>
+	</footer>
+</body>
+</html>

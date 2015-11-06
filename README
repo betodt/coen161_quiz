@@ -1,0 +1,25 @@
+Travis Chen
+Alberto Diaz
+
+Extra Credit is included in the form of a Timer and an animated Timer Bar.
+The length of the Bar decreases as time passes.
+The color of the Bar changes as time passes.
+
+Upon loading the page, a random topic is picked.
+The only choice is to take the quiz.
+By clicking that button, the first question is randomly picked.
+If the timer runs out, the answer is assumed to be wrong and the next question is displayed.
+The score updates after each new question.
+
+Once the user clicks an answer, the correctness of that answer, along with an explanation for the correct answer, is displayed.
+The next button is highlighted for ease of use.
+
+At any time, the user may quit the quiz.
+Upon doing so, the total score thus far is shown.
+In addition, an option to restart a new quiz is given.
+
+Once the user finishes a page, the score of the quiz is provided.
+
+
+
+
